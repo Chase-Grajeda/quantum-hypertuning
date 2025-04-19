@@ -22,8 +22,6 @@ OBS_NOISE = 0.05**2
 # TODO: Pull strategy returns from an actual database (or calculate them)
 # TODO: Wrap the reward function in an actual BO loop.
 
-
-
 # I'm not sure what reasonable parameter ranges are here.
 RANGES = {
     "ma_window": (5, 100),     # Moving average window size (days)
