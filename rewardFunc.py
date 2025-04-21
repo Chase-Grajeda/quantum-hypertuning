@@ -3,7 +3,8 @@ import numpy as np
 from qiskit_finance.circuit.library.probability_distributions.normal import NormalDistribution 
 from qiskit import QuantumCircuit, transpile
 from qiskit.circuit.library import LinearAmplitudeFunction
-from qiskit_algorithms import IterativeAmplitudeEstimation, EstimationProblem
+# from qiskit_algorithms import IterativeAmplitudeEstimation, EstimationProblem
+from qiskit.algorithms import IterativeAmplitudeEstimation, EstimationProblem
 
 from qiskit_aer import AerSimulator
 from qiskit_aer.noise import NoiseModel
