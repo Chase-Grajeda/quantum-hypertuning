@@ -219,7 +219,7 @@ class QBO(object):
 
             self.eps_list = np.append(self.eps_list, eps)
             
-            if self.i % 10 == 0:
+            if self.i % 1 == 0:
                 print("Shot {0} ------ x_t: {1}, y_t: {2}".format(self.i, x_max, y))
 
             self.i += 1
