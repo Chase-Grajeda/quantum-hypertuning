@@ -1,18 +1,13 @@
-import os
-import sys
 import itertools
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import torch
-import torch.nn as nn
-from torch.utils.data import Dataset, DataLoader, random_split
+from torch.utils.data import Dataset, DataLoader
 from lstnet import LSTNet
 from torch.nn import Module, MSELoss
 from torch.optim import Optimizer, Adam
-import gc
 import yfinance as yf
-import seaborn as sns
 
 
 class USDJPY(Dataset):
