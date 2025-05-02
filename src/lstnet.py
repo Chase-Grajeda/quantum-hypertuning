@@ -26,9 +26,7 @@ class LSTNet(nn.Module):
         self.skip = num_skip
         self.attn = attn_len
         self.dropout = nn.Dropout(dropout)
-        
-        #[  x  x  x  x    x     x   x x x x  ]
-        
+                
         # CNN
         self.conv1 = nn.Conv2d(1, self.hidC, kernel_size=(self.ck, self.m))
         
